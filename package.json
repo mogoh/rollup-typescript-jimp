@@ -1,0 +1,19 @@
+{
+    "name": "rollup-jimp",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "rollup": "rollup --config"
+    },
+    "dependencies": {
+        "@rollup/plugin-node-resolve": "*",
+        "@rollup/plugin-typescript": "*",
+        "jimp": "*",
+        "rollup": "*",
+        "tslib": "*",
+        "typescript": "*"
+    }
+}
